@@ -34,7 +34,7 @@
     },
     "UPDATE_CHANNEL": {
       "description": "Force Users to join channel",
-      "required": true
+      "required": false
     }
   },
   "addons": [
