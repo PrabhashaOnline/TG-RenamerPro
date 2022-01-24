@@ -10,8 +10,6 @@ from pyrogram.errors import UserNotParticipant
 
 if bool(os.environ.get("WEBHOOK", False)):
     from mwk.config import Config
-else:
-    from mwk config import Config
 
 # the Strings used for this "thing"
 from mwk.messages import Translation
